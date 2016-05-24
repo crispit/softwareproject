@@ -1,0 +1,37 @@
+Felrapporteringsappen
+
+När det uppstår problem på bussen måste dessa rapporteras till trafikledningen och i många fall även servicecentret som står för reparationer. 
+I dagsläget sker all rapportering via telefon till trafikledningen. 
+Då busschaufförerna ej har möjlighet till kommunikation samtidigt som de kör begränsas rapporteringstillfällena till de tidpunkter då bussen står still under en längre period.
+Detta sker främst vid ändhållplatser vilket innebär en tidsförskjutning mellan det att problemet uppstår och att rapporten skickas in. 
+Tidvis uppstår det även kommunikationssvårigheter när dialogen förs via telefon.
+
+Felrapporteringsappen erbjuder en möjlighet för busschaufförerna att snabbt och enkelt skicka in en felrapport under den tid som bussen befinner sig vid en hållplats.
+Appens layout innebär att en rapport innehållandes en kategorisering av problemet samt en gradering av storleken på problemet. 
+Denna rapport kan sedan förändras och kompletteras med en kommentar vid ett senare tillfälle då busschauffören har mer tid. 
+
+* Snabbare rapportering
+* Förenklad kommunikation
+
+
+Trafikledning/Service App
+
+Denna app är ett redskap för såväl trafikledning som servicecenter. 
+För att kunna schemalägga användning av de olika bussarna är trafikledningen i behov av att veta om en buss är i behov av service eller kan tas i bruk.
+Om trafikledning i ett tidigt skede får ta del av information om bussarnas tillstånd ökar deras förmåga att i god tid schemalägga rutter för specifika bussar. 
+Appen gör det även möjligt för servicecentret att, redan innan bussen skickas in på service, känna till vilka problem som ska åtgärdas. 
+De sparar på så sätt tid som annars skulle behöva läggas på att identifiera problemet och kan istället förbereda sig på det arbete som måste utföras.
+I dagsläget rapporteras alla problem till trafikledningen som gör en bedömning och sedan skickar vidare ärendet till servicecenter. 
+När information ska kommuniceras flera led ökar risken för missförstånd och informationsbortfall.
+Huvudsyftet med appen är således att minska ledtiderna samt att öka transparensen mellan trafikledningen och servicecentret. 
+
+Appens design syftar till att, med hjälp av tre olika listalternativ, underlätta bevakningen av samtliga felrapporter.
+De tre listalternativen är livefeed, busslista samt historik. 
+Livefeeden är skapad för att erbjuda en möjlighet att på ett och samma ställe följa alla rapporter som kommer in. 
+Busslistan är menad att ge en överblick över alla bussar som någon gång rapporterat in ett problem. 
+Detta listalternativ är främst framtagen för att ge trafikledningen en möjlighet att titta på enskilda bussar för en mer långsiktig planering. 
+Vyn gör det även möjligt att snabbt få en överblick över vilka bussar som i dagsläget är problemfria. 
+
+* Förkortade ledtider (Trafikledning & Service)
+* Enkel överblick över brukbara bussar (Trafikledning)
+* Ökad intern transparens (Trafikledning och Service)
