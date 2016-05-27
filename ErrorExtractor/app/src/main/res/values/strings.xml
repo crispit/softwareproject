@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Trafikledning</string>
+    <string name="busInfo">Bussinformation</string>
+    <string name="detailedErrorReport">Detaljerad Felrapport</string>
+</resources>
