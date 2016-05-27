@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Serviceappen</string>
+    <string name="busInfo">Bussinformation</string>
+    <string name="detailedErrorReport">Detaljerad Felrapport</string>
+    <string name="busSelector">Välj buss</string>
+    <string name="history">Historik</string>
+    <string name="liveFeed">Livefeed</string>
+    <string name="BusHistoryList">Historiklista</string>
+</resources>
