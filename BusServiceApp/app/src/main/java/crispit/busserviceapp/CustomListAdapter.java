@@ -60,14 +60,14 @@ public class CustomListAdapter extends ArrayAdapter<String> {
 
         if (position%2 == 0) {
             view.setBackgroundResource(R.drawable.list_bg_even);
-        } else if (position%2 == 1) {
+        } else if (position%2 != 0) {
             view.setBackgroundResource(R.drawable.list_bg_odd);
         }
 
         return view;
     }
 
-    public class ViewHolder {
+    public static class ViewHolder {
 
         public TextView bus;
 
