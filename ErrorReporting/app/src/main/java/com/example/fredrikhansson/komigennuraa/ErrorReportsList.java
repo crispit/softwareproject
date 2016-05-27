@@ -53,6 +53,8 @@ public class ErrorReportsList extends AppCompatActivity {
                     date2 = format.parse(report2.getPubdate());
                 } catch (ParseException e) {
 
+                    System.out.print(e);
+
                 }
 
                 return (date1.compareTo(date2)) * (-1);

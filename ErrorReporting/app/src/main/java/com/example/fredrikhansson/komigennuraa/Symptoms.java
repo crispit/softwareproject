@@ -2,14 +2,6 @@ package com.example.fredrikhansson.komigennuraa; /**
  * Created by Mikael on 2016-04-25.
  */
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.util.HashMap;
-
-import javax.net.ssl.HttpsURLConnection;
-
 class Symptoms {
 
     public static String[] getsymptoms(){

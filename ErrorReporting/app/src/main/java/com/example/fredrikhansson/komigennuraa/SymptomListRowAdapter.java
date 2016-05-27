@@ -5,32 +5,19 @@ package com.example.fredrikhansson.komigennuraa;
  */
 
 import android.app.Activity;
-import android.content.Context;
-import android.graphics.Color;
-import android.text.Html;
-import android.text.TextUtils;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.TextView;
 
 import java.util.List;
 
 class SymptomListRowAdapter extends ArrayAdapter<String> {
 
-    private final Activity activity;
-    private final List<String> symptoms;
     private String selectedSymptom;
-    private boolean symptomSet;
 
     public SymptomListRowAdapter(Activity act, List<String> arrayList, String selectedSymptom) {
         super(act,android.R.layout.simple_list_item_1, arrayList);
         this.selectedSymptom=selectedSymptom;
-        this.activity = act;
-        this.symptoms = arrayList;
-        symptomSet=false;
-
     }
 
     @Override

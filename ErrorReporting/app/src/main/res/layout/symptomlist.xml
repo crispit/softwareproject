@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Välj det symptom som bäst stämmer in:"
+        android:text="@string/ChooseSymptom"
         android:id="@+id/textView"
         />
 

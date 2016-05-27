@@ -12,7 +12,7 @@
         android:layout_toStartOf="@+id/errordate"
         android:layout_toLeftOf="@+id/errordate"
         android:maxLines="1"
-        android:text="symptom"
+        android:text="@string/Symptom"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -24,7 +24,7 @@
         android:layout_marginTop="5dip"
         android:layout_below="@+id/errorsymptom"
         android:maxLines="1"
-        android:text="grade"
+        android:text="@string/Grade2"
         android:textColor="@android:color/black"
         android:textSize="15sp"
         android:textStyle="bold"/>
@@ -36,7 +36,7 @@
         android:layout_below="@+id/errorgrade"
         android:ellipsize="end"
         android:maxLines="3"
-        android:text="comment"
+        android:text="@string/Comment"
         android:textColor="@android:color/black"
         android:textSize="13sp" />
 
@@ -49,7 +49,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="5dip"
-        android:text="date"
+        android:text="@string/Date"
         android:textColor="@android:color/black"
         android:textSize="12sp" />
 
