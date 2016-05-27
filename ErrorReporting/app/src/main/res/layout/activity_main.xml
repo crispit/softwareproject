@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fredrikhansson.komigennuraa.MainActivity"
+    android:background="@color/colorBackground">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Visa skickade rapporter"
+        android:id="@+id/Bdisplay"
+        android:onClick="displayReport"
+        android:background="#9ecbf9"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:width="260dp"
+        android:height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vad är felet?"
+        android:textSize="24sp"
+        android:id="@+id/whatHappened"
+        android:layout_below="@+id/Bdisplay"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klicka här ▼"
+        android:id="@+id/symptom"
+        android:width="320dp"
+        android:height="70dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:onClick="symptomList"
+        android:layout_below="@+id/whatHappened"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hur illa är problemet?"
+        android:textSize="24sp"
+        android:id="@+id/howBad"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/symptom"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/scaleOfColors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/howBad"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/colorButton1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="25"
+            android:background="@drawable/custom_button1"
+            android:onClick="selectColor" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/colorButton2"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="25"
+            android:background="@drawable/custom_button2"
+            android:onClick="selectColor" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/colorButton3"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="25"
+            android:background="@drawable/custom_button3"
+            android:onClick="selectColor" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/colorButton4"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="25"
+            android:background="@drawable/custom_button4"
+            android:onClick="selectColor" />
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="1"
+        android:textSize="26sp"
+        android:textColor="#000"
+        android:id="@+id/firstStep"
+        android:layout_below="@+id/Bdisplay"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="2"
+        android:textSize="26sp"
+        android:textColor="#000"
+        android:id="@+id/secondStep"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/symptom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="3"
+        android:textSize="26sp"
+        android:textColor="#000"
+        android:id="@+id/thirdStep"
+        android:layout_below="@id/scaleOfColors"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:background="@drawable/buttonn_grey"
+        android:text="SKICKA"
+        android:width="230dp"
+        android:height="80dp"
+        android:textSize="30sp"
+        android:onClick="addReport"
+        android:layout_below="@id/scaleOfColors"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
