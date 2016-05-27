@@ -56,6 +56,12 @@ public class ErrorReportsList extends AppCompatActivity {
                     System.out.print(e);
 
                 }
+                if (date1 == null){
+                    return -1;
+                }
+                else if (date2 == null){
+                    return 1;
+                }
 
                 return (date1.compareTo(date2)) * (-1);
             }

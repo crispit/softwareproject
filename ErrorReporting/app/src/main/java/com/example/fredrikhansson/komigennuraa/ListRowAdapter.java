@@ -86,7 +86,7 @@ class ListRowAdapter extends ArrayAdapter<ErrorReport> {
         return view;
     }
 
-    public class ViewHolder {
+    public static class ViewHolder {
 
         public TextView errorSymptom, errorGrade, errorComment, errorDate;
 

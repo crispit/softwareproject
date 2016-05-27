@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         mydb = new DbHelper(this);
 
-        busId = "Blåa bussen";
+        busId = "Vin_Num_001";
         status = "Okommenterad";
 
 
@@ -102,6 +102,12 @@ public class MainActivity extends AppCompatActivity {
                 b2.setSelected(false);
                 b3.setSelected(false);
                 urgency = 4;
+                break;
+            default:
+                b1.setSelected(false);
+                b2.setSelected(false);
+                b3.setSelected(false);
+                b4.setSelected(false);
                 break;
         }
         unLockSend();
@@ -166,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
     private class RetrieveBusData extends AsyncTask<String, String, String> {
 
         protected String doInBackground(String... str) {
-            try {
+
                 String errorId = mydb.getNewErrorId();
                 //Insert preliminry
 
@@ -185,9 +191,7 @@ public class MainActivity extends AppCompatActivity {
                         map.get("Status_2_Of_Doors"), map.get("Stop_Pressed"), map.get("Stop_Request"),
                         map.get("Total_Vehicle_Distance"), map.get("Turn_Signals"),map.get("Wlan_Connectivity"));
 
-            } catch (Exception e) {
-                return "Could not insert!";
-            }
+
 
 
             return "Insertion successful!";

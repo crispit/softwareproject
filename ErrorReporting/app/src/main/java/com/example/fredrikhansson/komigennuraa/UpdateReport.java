@@ -114,6 +114,8 @@ public class UpdateReport extends AppCompatActivity {
                 gradeButton.setBackgroundResource(R.drawable.custom_button4);
                 gradeButton.setText("4");
                 break;
+            default:
+                break;
         }
 
     }//setGradeButtonColor
@@ -201,6 +203,9 @@ public class UpdateReport extends AppCompatActivity {
                 popupMessage.dismiss();
                 resetScreen();
                 break;
+            default:
+                popupMessage.dismiss();
+                resetScreen();
         }
     }//gradeSelected
 
