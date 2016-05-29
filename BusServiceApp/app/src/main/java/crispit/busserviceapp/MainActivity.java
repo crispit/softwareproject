@@ -17,11 +17,6 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    ListView listView ;
-    DBHelper mydb;
-    private ArrayList<String> list;
-    String busId;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -56,7 +56,6 @@ public class CustomDetailedListAdapter extends ArrayAdapter<HashMap<String,Strin
 
         holder.description = (TextView) view.findViewById(R.id.custom_list_description);
         holder.data = (TextView) view.findViewById(R.id.custom_list_data);
-        //holder.gradeButton = (Button)view.findViewById(R.id.changeGradeButton);
 
 
         if (holder.description != null && null != errorDescription
@@ -67,33 +66,21 @@ public class CustomDetailedListAdapter extends ArrayAdapter<HashMap<String,Strin
                 && errorData.trim().length() > 0) {
             holder.data.setText(Html.fromHtml(errorData));
         }
-        //here set your color as per position
-
-        //holder.gradeButton = new Button(this.getContext());
-
-        /*if(!holder.description.getText().equals("Gradering:")){
-
-            holder.gradeButton = (Button)view.findViewById(R.id.changeGradeButton);
-            //holder.gradeButton.setText("Ändra!");
-            //holder.gradeButton.setBackgroundColor(android.R.color.black);
-
-        }*/
 
 
         if (position%2 == 0) {
             view.setBackgroundResource(R.drawable.list_bg_even);
-        } else if (position%2 == 1) {
+        } else if (position%2 != 0) {
             view.setBackgroundResource(R.drawable.list_bg_odd);
         }
 
         return view;
     }
 
-    public class ViewHolder {
+    public static class ViewHolder {
 
         public TextView data;
         public TextView description;
-        public Button gradeButton;
 
     }
 

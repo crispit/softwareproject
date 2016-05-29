@@ -69,7 +69,7 @@ public class ColoredBusListAdapter extends ArrayAdapter<String> {
         return view;
     }
 
-    public class ViewHolder {
+    public static class ViewHolder {
 
         public TextView bus;
 

@@ -46,9 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         mydb = new DbHelper(this);
 
-
-
-        busId = "Blåa bussen";// 100021
+        busId = "Vin_Num_001";
         status = "Okommenterad";
 
 
@@ -105,6 +103,12 @@ public class MainActivity extends AppCompatActivity {
                 b3.setSelected(false);
                 urgency = 4;
                 break;
+            default:
+                b1.setSelected(false);
+                b2.setSelected(false);
+                b3.setSelected(false);
+                b4.setSelected(false);
+                break;
         }
         unLockSend();
     }
@@ -150,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
         symptomSelected = false;
         gradeSelected = false;
         Button symptomButton = (Button)findViewById(R.id.symptom);
-        symptomButton.setText("Klicka här ▼");
+        symptomButton.setText(getResources().getString(R.string.PressHere));
 
         Button sendButton = (Button)findViewById(R.id.sendButton);
         sendButton.setEnabled(false);
@@ -167,14 +171,12 @@ public class MainActivity extends AppCompatActivity {
     //Class where the new error report is inserted to the databases
     private class RetrieveBusData extends AsyncTask<String, String, String> {
 
-        private Exception exception;
-
         protected String doInBackground(String... str) {
-            try {
+
                 String errorId = mydb.getNewErrorId();
                 //Insert preliminry
 
-                mydb.insertPreliminaryReport(errorId, symptom, "Kommentar saknas...", busId,
+                mydb.insertPreliminaryReport(errorId, symptom, busId,
                         calendar.get(Calendar.YEAR)+"-"+(calendar.get(Calendar.MONTH)+1)+"-"+calendar.get(Calendar.DAY_OF_MONTH)
                                 +", "+calendar.get(Calendar.HOUR_OF_DAY)+":"+calendar.get(Calendar.MINUTE)+":"+calendar.get(Calendar.SECOND),urgency, status);
 
@@ -189,10 +191,7 @@ public class MainActivity extends AppCompatActivity {
                         map.get("Status_2_Of_Doors"), map.get("Stop_Pressed"), map.get("Stop_Request"),
                         map.get("Total_Vehicle_Distance"), map.get("Turn_Signals"),map.get("Wlan_Connectivity"));
 
-            } catch (Exception e) {
-                this.exception = e;
-                return "Could not insert!";
-            }
+
 
 
             return "Insertion successful!";

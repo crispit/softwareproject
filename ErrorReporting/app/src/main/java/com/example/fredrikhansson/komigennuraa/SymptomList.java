@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -20,7 +19,6 @@ public class SymptomList extends AppCompatActivity {
 
     private ListView listView ;
     private String selectedSymptom;
-    int clickPosition;
     //private SymptomListRowAdapter adapter;
     private ArrayAdapter adapter;
     private ArrayList<String> symptomList;

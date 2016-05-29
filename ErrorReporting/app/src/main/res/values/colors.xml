@@ -4,7 +4,6 @@
     <color name="colorPrimaryDark">#95B16C</color>
     <color name="colorBackground">#e1e6a6</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="blu">#ffffff</color>
     <color name="black">#000000</color>
 
     <color name="yellow">#ffd600</color>
@@ -14,7 +13,6 @@
 
     <color name="blue">#ff2570ba</color>
     <color name="grey">#f7f7f7</color>
-    <color name="greyDark">#d9d9d9</color>
 
     <color name="lightred">#e2725b</color>
     <color name="lightyellow">#ffd12a</color>

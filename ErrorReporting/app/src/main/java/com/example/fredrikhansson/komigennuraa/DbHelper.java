@@ -211,7 +211,7 @@ class DbHelper extends SQLiteOpenHelper{
 
 
     //Method for inserting a preliminary error report
-    public boolean insertPreliminaryReport(String errorID, String symptom, String comment, String busID, String date, int grade, String status){
+    public boolean insertPreliminaryReport(String errorID, String symptom, String busID, String date, int grade, String status){
 
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();

@@ -109,6 +109,8 @@ public class DetailedErrorReport extends AppCompatActivity {
                 grade = "4";
                 popupMessage.dismiss();
                 break;
+            default:
+                popupMessage.dismiss();
         }
         mydb.updateGrade(errorId,grade);
         getList();
