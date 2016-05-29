@@ -82,6 +82,12 @@ public class BusList extends AppCompatActivity
 
 
     }
+    public void setList(ArrayList<String> list){
+        this.list = list;
+    }
+    public void setTypeOfBus(String typeOfBus){
+        this.typeOfBusList = typeOfBus;
+    }
 
     public void setTitle(){
 
