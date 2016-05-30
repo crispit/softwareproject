@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://findbugs.sourceforge.net/xsl/default.xsl"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1464617631454" analysisTimestamp="1464617630067" release="">
+  <Project projectName="ErrorReporting[app]">
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$anim.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$attr.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$bool.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$color.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$dimen.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$drawable.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$id.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$integer.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$layout.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$string.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$style.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$styleable.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\android\support\v7\appcompat\R.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\BuildConfig.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\BusData$WThreads.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\BusData.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\DbHelper.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\EmptyReturnValueException.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\ErrorReport.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\ErrorReportsList$1.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\ErrorReportsList$2.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\ErrorReportsList.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\ListRowAdapter$ViewHolder.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\ListRowAdapter.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\MainActivity$1.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\MainActivity$RetrieveBusData.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\MainActivity.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$anim.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$attr.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$bool.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$color.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$dimen.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$drawable.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$id.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$integer.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$layout.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$mipmap.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$string.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$style.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R$styleable.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\R.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\SymptomList$1.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\SymptomList.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\SymptomListRowAdapter.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\Symptoms.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\UpdateReport$1.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\debug\com\example\fredrikhansson\komigennuraa\UpdateReport.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\test\debug\com\example\fredrikhansson\komigennuraa\DBHelperTest.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\ErrorReporting\app\build\intermediates\classes\test\debug\com\example\fredrikhansson\komigennuraa\ExampleUnitTest.class</Jar>
+    <AuxClasspathEntry>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/intermediates/classes/debug</AuxClasspathEntry>
+    <AuxClasspathEntry>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/intermediates/classes/test/debug</AuxClasspathEntry>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/generated/source/r/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/generated/source/aidl/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/generated/source/buildConfig/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/generated/source/rs/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/generated/res/rs/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/generated/source/r/androidTest/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/generated/source/aidl/androidTest/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/generated/source/buildConfig/androidTest/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/generated/source/rs/androidTest/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/build/generated/res/rs/androidTest/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/src/main/res</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/src/main/java</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/src/test/java</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/ErrorReporting/app/src/androidTest/java</SrcDir>
+    <Plugin id="jp.f.dev.findbugs.detect.android" enabled="true"/>
+  </Project>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC_ANON" priority="3" rank="20" abbrev="SIC" category="PERFORMANCE" instanceHash="e541c63dbf69da9225b7fa5be548f7d5" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Could be refactored into a named static inner class</ShortMessage>
+    <LongMessage>The class com.example.fredrikhansson.komigennuraa.ErrorReportsList$2 could be refactored into a named _static_ inner class</LongMessage>
+    <Class classname="com.example.fredrikhansson.komigennuraa.ErrorReportsList$2" primary="true">
+      <SourceLine classname="com.example.fredrikhansson.komigennuraa.ErrorReportsList$2" start="65" end="86" sourcefile="ErrorReportsList.java" sourcepath="com/example/fredrikhansson/komigennuraa/ErrorReportsList.java" relSourcepath="src\main\java\com\example\fredrikhansson\komigennuraa\ErrorReportsList.java">
+        <Message>At ErrorReportsList.java:[lines 65-86]</Message>
+      </SourceLine>
+      <Message>In class com.example.fredrikhansson.komigennuraa.ErrorReportsList$2</Message>
+    </Class>
+    <SourceLine classname="com.example.fredrikhansson.komigennuraa.ErrorReportsList$2" start="65" end="86" sourcefile="ErrorReportsList.java" sourcepath="com/example/fredrikhansson/komigennuraa/ErrorReportsList.java" relSourcepath="src\main\java\com\example\fredrikhansson\komigennuraa\ErrorReportsList.java" synthetic="true">
+      <Message>At ErrorReportsList.java:[lines 65-86]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="PERFORMANCE">
+    <Description>Performance</Description>
+  </BugCategory>
+  <BugPattern type="SIC_INNER_SHOULD_BE_STATIC_ANON" abbrev="SIC" category="PERFORMANCE">
+    <ShortDescription>Could be refactored into a named static inner class</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This class is an inner class, but does not use its embedded reference
+  to the object which created it.&nbsp; This reference makes the instances
+  of the class larger, and may keep the reference to the creator object
+  alive longer than necessary.&nbsp; If possible, the class should be
+  made into a <em>static</em> inner class. Since anonymous inner
+classes cannot be marked as static, doing this will require refactoring
+the inner class so that it is a named inner class.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="SIC">
+    <Description>Inner class could be made static</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 30 May 2016 16:11:37 +0200" total_classes="49" referenced_classes="120" total_bugs="1" total_size="3547" num_packages="2" java_version="1.8.0_45" vm_version="25.45-b02" cpu_seconds="8.53" clock_seconds="28.24" peak_mbytes="730.25" alloc_mbytes="1246.75" gc_seconds="0.10" priority_3="1">
+    <FileStats path="android/support/v7/appcompat/R.java" bugCount="0" size="1317"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/BuildConfig.java" bugCount="0" size="11"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/BusData.java" bugCount="0" size="88"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/DBHelperTest.java" bugCount="0" size="20"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/DbHelper.java" bugCount="0" size="142"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/EmptyReturnValueException.java" bugCount="0" size="9"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/ErrorReport.java" bugCount="0" size="53"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/ErrorReportsList.java" bugCount="1" size="62" bugHash="3dcd73922de31580322b649f351d253f"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/ExampleUnitTest.java" bugCount="0" size="6"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/ListRowAdapter.java" bugCount="0" size="53"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/MainActivity.java" bugCount="0" size="134"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/R.java" bugCount="0" size="1410"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/SymptomList.java" bugCount="0" size="29"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/SymptomListRowAdapter.java" bugCount="0" size="17"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/Symptoms.java" bugCount="0" size="52"/>
+    <FileStats path="com/example/fredrikhansson/komigennuraa/UpdateReport.java" bugCount="0" size="144"/>
+    <PackageStats package="android.support.v7.appcompat" total_bugs="0" total_types="13" total_size="1317">
+      <ClassStats class="android.support.v7.appcompat.R" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$anim" sourceFile="R.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$attr" sourceFile="R.java" interface="false" size="212" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$bool" sourceFile="R.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$color" sourceFile="R.java" interface="false" size="73" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$dimen" sourceFile="R.java" interface="false" size="78" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$drawable" sourceFile="R.java" interface="false" size="79" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$id" sourceFile="R.java" interface="false" size="96" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$integer" sourceFile="R.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$layout" sourceFile="R.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$string" sourceFile="R.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$style" sourceFile="R.java" interface="false" size="321" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$styleable" sourceFile="R.java" interface="false" size="359" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.example.fredrikhansson.komigennuraa" total_bugs="1" total_types="36" total_size="2230" priority_3="1">
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.BuildConfig" sourceFile="BuildConfig.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.BusData" sourceFile="BusData.java" interface="false" size="70" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.BusData$WThreads" sourceFile="BusData.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.DBHelperTest" sourceFile="DBHelperTest.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.DbHelper" sourceFile="DbHelper.java" interface="false" size="142" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.EmptyReturnValueException" sourceFile="EmptyReturnValueException.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.ErrorReport" sourceFile="ErrorReport.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.ErrorReportsList" sourceFile="ErrorReportsList.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.ErrorReportsList$1" sourceFile="ErrorReportsList.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.ErrorReportsList$2" sourceFile="ErrorReportsList.java" interface="false" size="19" bugs="1" priority_3="1"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.ExampleUnitTest" sourceFile="ExampleUnitTest.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.ListRowAdapter" sourceFile="ListRowAdapter.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.ListRowAdapter$ViewHolder" sourceFile="ListRowAdapter.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.MainActivity" sourceFile="MainActivity.java" interface="false" size="113" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.MainActivity$1" sourceFile="MainActivity.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.MainActivity$RetrieveBusData" sourceFile="MainActivity.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$anim" sourceFile="R.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$attr" sourceFile="R.java" interface="false" size="212" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$bool" sourceFile="R.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$color" sourceFile="R.java" interface="false" size="88" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$dimen" sourceFile="R.java" interface="false" size="80" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$drawable" sourceFile="R.java" interface="false" size="90" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$id" sourceFile="R.java" interface="false" size="128" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$integer" sourceFile="R.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$layout" sourceFile="R.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$mipmap" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$string" sourceFile="R.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$style" sourceFile="R.java" interface="false" size="324" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.R$styleable" sourceFile="R.java" interface="false" size="359" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.SymptomList" sourceFile="SymptomList.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.SymptomList$1" sourceFile="SymptomList.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.SymptomListRowAdapter" sourceFile="SymptomListRowAdapter.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.Symptoms" sourceFile="Symptoms.java" interface="false" size="52" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.UpdateReport" sourceFile="UpdateReport.java" interface="false" size="133" bugs="0"/>
+      <ClassStats class="com.example.fredrikhansson.komigennuraa.UpdateReport$1" sourceFile="UpdateReport.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="300" invocations="767" avgMicrosecondsPerInvocation="391" maxMicrosecondsPerInvocation="56960" standardDeviationMircosecondsPerInvocation="3080"/>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="248" invocations="2" avgMicrosecondsPerInvocation="124455" maxMicrosecondsPerInvocation="199302" standardDeviationMircosecondsPerInvocation="74847"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="70" invocations="769" avgMicrosecondsPerInvocation="91" maxMicrosecondsPerInvocation="2294" standardDeviationMircosecondsPerInvocation="138"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="56" invocations="120" avgMicrosecondsPerInvocation="471" maxMicrosecondsPerInvocation="13569" standardDeviationMircosecondsPerInvocation="1385"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="49" invocations="120" avgMicrosecondsPerInvocation="410" maxMicrosecondsPerInvocation="7533" standardDeviationMircosecondsPerInvocation="890"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="39" invocations="132" avgMicrosecondsPerInvocation="303" maxMicrosecondsPerInvocation="9856" standardDeviationMircosecondsPerInvocation="1194"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="35" invocations="136" avgMicrosecondsPerInvocation="262" maxMicrosecondsPerInvocation="16774" standardDeviationMircosecondsPerInvocation="1441"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="31" invocations="130" avgMicrosecondsPerInvocation="246" maxMicrosecondsPerInvocation="3671" standardDeviationMircosecondsPerInvocation="532"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="31" invocations="132" avgMicrosecondsPerInvocation="238" maxMicrosecondsPerInvocation="2233" standardDeviationMircosecondsPerInvocation="390"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="30" invocations="403" avgMicrosecondsPerInvocation="75" maxMicrosecondsPerInvocation="1594" standardDeviationMircosecondsPerInvocation="131"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="24" invocations="677" avgMicrosecondsPerInvocation="36" maxMicrosecondsPerInvocation="9961" standardDeviationMircosecondsPerInvocation="389"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="22" invocations="139" avgMicrosecondsPerInvocation="162" maxMicrosecondsPerInvocation="2989" standardDeviationMircosecondsPerInvocation="349"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="19" invocations="185" avgMicrosecondsPerInvocation="106" maxMicrosecondsPerInvocation="9334" standardDeviationMircosecondsPerInvocation="685"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="18" invocations="132" avgMicrosecondsPerInvocation="142" maxMicrosecondsPerInvocation="1826" standardDeviationMircosecondsPerInvocation="230"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop" totalMilliseconds="14" invocations="49" avgMicrosecondsPerInvocation="297" maxMicrosecondsPerInvocation="12239" standardDeviationMircosecondsPerInvocation="1724"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="13" invocations="120" avgMicrosecondsPerInvocation="115" maxMicrosecondsPerInvocation="3108" standardDeviationMircosecondsPerInvocation="310"/>
+      <ClassProfile name="jp.f.dev.findbugs.detect.android.FindAndroidStream" totalMilliseconds="13" invocations="49" avgMicrosecondsPerInvocation="276" maxMicrosecondsPerInvocation="2989" standardDeviationMircosecondsPerInvocation="628"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="12" invocations="120" avgMicrosecondsPerInvocation="108" maxMicrosecondsPerInvocation="1875" standardDeviationMircosecondsPerInvocation="234"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="12" invocations="103" avgMicrosecondsPerInvocation="125" maxMicrosecondsPerInvocation="1450" standardDeviationMircosecondsPerInvocation="233"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

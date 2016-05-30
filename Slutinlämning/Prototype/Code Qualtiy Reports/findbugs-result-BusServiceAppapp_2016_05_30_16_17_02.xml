@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://findbugs.sourceforge.net/xsl/default.xsl"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1464617769774" analysisTimestamp="1464617768394" release="">
+  <Project projectName="BusServiceApp[app]">
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$anim.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$attr.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$bool.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$color.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$dimen.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$drawable.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$id.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$integer.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$layout.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$string.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$style.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$styleable.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\android\support\v7\appcompat\R.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\BuildConfig.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\BusList$1.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\BusList.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\ColoredBusListAdapter$ViewHolder.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\ColoredBusListAdapter.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\CustomDetailedListAdapter$ViewHolder.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\CustomDetailedListAdapter.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\CustomListAdapter$ViewHolder.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\CustomListAdapter.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\DBHelper.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\DetailedErrorReport.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\ErrorReport.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\ListRowAdapter$ViewHolder.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\ListRowAdapter.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\MainActivity.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$anim.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$attr.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$bool.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$color.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$dimen.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$drawable.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$id.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$integer.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$layout.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$menu.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$mipmap.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$string.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$style.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$styleable.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R$xml.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\R.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\SearchableActivity.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\ShowingErrorReports$1.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\ShowingErrorReports$2.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\ShowingErrorReports$3.class</Jar>
+    <Jar>F:\Dokument\StudioProjects\softwareproject\BusServiceApp\app\build\intermediates\classes\debug\crispit\busserviceapp\ShowingErrorReports.class</Jar>
+    <AuxClasspathEntry>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/build/intermediates/classes/debug</AuxClasspathEntry>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/build/generated/source/r/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/build/generated/source/aidl/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/build/generated/source/buildConfig/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/build/generated/source/rs/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/build/generated/res/rs/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/build/generated/source/r/androidTest/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/build/generated/source/aidl/androidTest/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/build/generated/source/buildConfig/androidTest/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/build/generated/source/rs/androidTest/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/build/generated/res/rs/androidTest/debug</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/src/main/res</SrcDir>
+    <SrcDir>F:/Dokument/StudioProjects/softwareproject/BusServiceApp/app/src/main/java</SrcDir>
+  </Project>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC_ANON" priority="3" rank="20" abbrev="SIC" category="PERFORMANCE" instanceHash="4ca902f69a807324dd2d3a4927b9fd59" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Could be refactored into a named static inner class</ShortMessage>
+    <LongMessage>The class crispit.busserviceapp.ShowingErrorReports$2 could be refactored into a named _static_ inner class</LongMessage>
+    <Class classname="crispit.busserviceapp.ShowingErrorReports$2" primary="true">
+      <SourceLine classname="crispit.busserviceapp.ShowingErrorReports$2" start="95" end="105" sourcefile="ShowingErrorReports.java" sourcepath="crispit/busserviceapp/ShowingErrorReports.java" relSourcepath="src\main\java\crispit\busserviceapp\ShowingErrorReports.java">
+        <Message>At ShowingErrorReports.java:[lines 95-105]</Message>
+      </SourceLine>
+      <Message>In class crispit.busserviceapp.ShowingErrorReports$2</Message>
+    </Class>
+    <SourceLine classname="crispit.busserviceapp.ShowingErrorReports$2" start="95" end="105" sourcefile="ShowingErrorReports.java" sourcepath="crispit/busserviceapp/ShowingErrorReports.java" relSourcepath="src\main\java\crispit\busserviceapp\ShowingErrorReports.java" synthetic="true">
+      <Message>At ShowingErrorReports.java:[lines 95-105]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC_ANON" priority="3" rank="20" abbrev="SIC" category="PERFORMANCE" instanceHash="99609843a35184a4b560f6a3c5a420f5" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Could be refactored into a named static inner class</ShortMessage>
+    <LongMessage>The class crispit.busserviceapp.ShowingErrorReports$3 could be refactored into a named _static_ inner class</LongMessage>
+    <Class classname="crispit.busserviceapp.ShowingErrorReports$3" primary="true">
+      <SourceLine classname="crispit.busserviceapp.ShowingErrorReports$3" start="116" end="136" sourcefile="ShowingErrorReports.java" sourcepath="crispit/busserviceapp/ShowingErrorReports.java" relSourcepath="src\main\java\crispit\busserviceapp\ShowingErrorReports.java">
+        <Message>At ShowingErrorReports.java:[lines 116-136]</Message>
+      </SourceLine>
+      <Message>In class crispit.busserviceapp.ShowingErrorReports$3</Message>
+    </Class>
+    <SourceLine classname="crispit.busserviceapp.ShowingErrorReports$3" start="116" end="136" sourcefile="ShowingErrorReports.java" sourcepath="crispit/busserviceapp/ShowingErrorReports.java" relSourcepath="src\main\java\crispit\busserviceapp\ShowingErrorReports.java" synthetic="true">
+      <Message>At ShowingErrorReports.java:[lines 116-136]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="PERFORMANCE">
+    <Description>Performance</Description>
+  </BugCategory>
+  <BugPattern type="SIC_INNER_SHOULD_BE_STATIC_ANON" abbrev="SIC" category="PERFORMANCE">
+    <ShortDescription>Could be refactored into a named static inner class</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This class is an inner class, but does not use its embedded reference
+  to the object which created it.&nbsp; This reference makes the instances
+  of the class larger, and may keep the reference to the creator object
+  alive longer than necessary.&nbsp; If possible, the class should be
+  made into a <em>static</em> inner class. Since anonymous inner
+classes cannot be marked as static, doing this will require refactoring
+the inner class so that it is a named inner class.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="SIC">
+    <Description>Inner class could be made static</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 30 May 2016 15:35:57 +0200" total_classes="49" referenced_classes="91" total_bugs="2" total_size="3461" num_packages="2" java_version="1.8.0_45" vm_version="25.45-b02" cpu_seconds="7.44" clock_seconds="53.94" peak_mbytes="806.45" alloc_mbytes="1246.75" gc_seconds="0.22" priority_3="2">
+    <FileStats path="android/support/v7/appcompat/R.java" bugCount="0" size="1317"/>
+    <FileStats path="crispit/busserviceapp/BuildConfig.java" bugCount="0" size="11"/>
+    <FileStats path="crispit/busserviceapp/BusList.java" bugCount="0" size="95"/>
+    <FileStats path="crispit/busserviceapp/ColoredBusListAdapter.java" bugCount="0" size="39"/>
+    <FileStats path="crispit/busserviceapp/CustomDetailedListAdapter.java" bugCount="0" size="44"/>
+    <FileStats path="crispit/busserviceapp/CustomListAdapter.java" bugCount="0" size="37"/>
+    <FileStats path="crispit/busserviceapp/DBHelper.java" bugCount="0" size="153"/>
+    <FileStats path="crispit/busserviceapp/DetailedErrorReport.java" bugCount="0" size="94"/>
+    <FileStats path="crispit/busserviceapp/ErrorReport.java" bugCount="0" size="53"/>
+    <FileStats path="crispit/busserviceapp/ListRowAdapter.java" bugCount="0" size="56"/>
+    <FileStats path="crispit/busserviceapp/MainActivity.java" bugCount="0" size="28"/>
+    <FileStats path="crispit/busserviceapp/R.java" bugCount="0" size="1397"/>
+    <FileStats path="crispit/busserviceapp/SearchableActivity.java" bugCount="0" size="6"/>
+    <FileStats path="crispit/busserviceapp/ShowingErrorReports.java" bugCount="2" size="131" bugHash="4ef7d98bdfbc9813be9796daf288a337"/>
+    <PackageStats package="android.support.v7.appcompat" total_bugs="0" total_types="13" total_size="1317">
+      <ClassStats class="android.support.v7.appcompat.R" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$anim" sourceFile="R.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$attr" sourceFile="R.java" interface="false" size="212" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$bool" sourceFile="R.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$color" sourceFile="R.java" interface="false" size="73" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$dimen" sourceFile="R.java" interface="false" size="78" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$drawable" sourceFile="R.java" interface="false" size="79" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$id" sourceFile="R.java" interface="false" size="96" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$integer" sourceFile="R.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$layout" sourceFile="R.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$string" sourceFile="R.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$style" sourceFile="R.java" interface="false" size="321" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$styleable" sourceFile="R.java" interface="false" size="359" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="crispit.busserviceapp" total_bugs="2" total_types="36" total_size="2144" priority_3="2">
+      <ClassStats class="crispit.busserviceapp.BuildConfig" sourceFile="BuildConfig.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.BusList" sourceFile="BusList.java" interface="false" size="83" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.BusList$1" sourceFile="BusList.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.ColoredBusListAdapter" sourceFile="ColoredBusListAdapter.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.ColoredBusListAdapter$ViewHolder" sourceFile="ColoredBusListAdapter.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.CustomDetailedListAdapter" sourceFile="CustomDetailedListAdapter.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.CustomDetailedListAdapter$ViewHolder" sourceFile="CustomDetailedListAdapter.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.CustomListAdapter" sourceFile="CustomListAdapter.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.CustomListAdapter$ViewHolder" sourceFile="CustomListAdapter.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.DBHelper" sourceFile="DBHelper.java" interface="false" size="153" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.DetailedErrorReport" sourceFile="DetailedErrorReport.java" interface="false" size="94" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.ErrorReport" sourceFile="ErrorReport.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.ListRowAdapter" sourceFile="ListRowAdapter.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.ListRowAdapter$ViewHolder" sourceFile="ListRowAdapter.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.MainActivity" sourceFile="MainActivity.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$anim" sourceFile="R.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$attr" sourceFile="R.java" interface="false" size="212" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$bool" sourceFile="R.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$color" sourceFile="R.java" interface="false" size="88" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$dimen" sourceFile="R.java" interface="false" size="80" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$drawable" sourceFile="R.java" interface="false" size="88" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$id" sourceFile="R.java" interface="false" size="120" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$integer" sourceFile="R.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$layout" sourceFile="R.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$menu" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$mipmap" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$string" sourceFile="R.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$style" sourceFile="R.java" interface="false" size="324" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$styleable" sourceFile="R.java" interface="false" size="359" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.R$xml" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.SearchableActivity" sourceFile="SearchableActivity.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.ShowingErrorReports" sourceFile="ShowingErrorReports.java" interface="false" size="89" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.ShowingErrorReports$1" sourceFile="ShowingErrorReports.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="crispit.busserviceapp.ShowingErrorReports$2" sourceFile="ShowingErrorReports.java" interface="false" size="13" bugs="1" priority_3="1"/>
+      <ClassStats class="crispit.busserviceapp.ShowingErrorReports$3" sourceFile="ShowingErrorReports.java" interface="false" size="18" bugs="1" priority_3="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="192" invocations="120" avgMicrosecondsPerInvocation="1607" maxMicrosecondsPerInvocation="142588" standardDeviationMircosecondsPerInvocation="13025"/>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="185" invocations="2" avgMicrosecondsPerInvocation="92613" maxMicrosecondsPerInvocation="101619" standardDeviationMircosecondsPerInvocation="9010"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="177" invocations="615" avgMicrosecondsPerInvocation="288" maxMicrosecondsPerInvocation="29743" standardDeviationMircosecondsPerInvocation="1654"/>
+      <ClassProfile name="edu.umd.cs.findbugs.NonReportingDetectorToDetector2Adapter" totalMilliseconds="49" invocations="1250" avgMicrosecondsPerInvocation="39" maxMicrosecondsPerInvocation="47741" standardDeviationMircosecondsPerInvocation="1349"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="48" invocations="617" avgMicrosecondsPerInvocation="79" maxMicrosecondsPerInvocation="5503" standardDeviationMircosecondsPerInvocation="240"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="39" invocations="49" avgMicrosecondsPerInvocation="808" maxMicrosecondsPerInvocation="30314" standardDeviationMircosecondsPerInvocation="4272"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUnrelatedTypesInGenericContainer" totalMilliseconds="39" invocations="49" avgMicrosecondsPerInvocation="797" maxMicrosecondsPerInvocation="36108" standardDeviationMircosecondsPerInvocation="5102"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="33" invocations="120" avgMicrosecondsPerInvocation="278" maxMicrosecondsPerInvocation="4324" standardDeviationMircosecondsPerInvocation="557"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="31" invocations="120" avgMicrosecondsPerInvocation="264" maxMicrosecondsPerInvocation="15570" standardDeviationMircosecondsPerInvocation="1420"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="29" invocations="91" avgMicrosecondsPerInvocation="329" maxMicrosecondsPerInvocation="5746" standardDeviationMircosecondsPerInvocation="790"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="28" invocations="121" avgMicrosecondsPerInvocation="237" maxMicrosecondsPerInvocation="4968" standardDeviationMircosecondsPerInvocation="657"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="27" invocations="118" avgMicrosecondsPerInvocation="236" maxMicrosecondsPerInvocation="2820" standardDeviationMircosecondsPerInvocation="465"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="27" invocations="91" avgMicrosecondsPerInvocation="297" maxMicrosecondsPerInvocation="2570" standardDeviationMircosecondsPerInvocation="561"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="26" invocations="121" avgMicrosecondsPerInvocation="220" maxMicrosecondsPerInvocation="3759" standardDeviationMircosecondsPerInvocation="503"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="21" invocations="120" avgMicrosecondsPerInvocation="182" maxMicrosecondsPerInvocation="13690" standardDeviationMircosecondsPerInvocation="1328"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="20" invocations="267" avgMicrosecondsPerInvocation="76" maxMicrosecondsPerInvocation="1193" standardDeviationMircosecondsPerInvocation="129"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="15" invocations="100" avgMicrosecondsPerInvocation="152" maxMicrosecondsPerInvocation="1545" standardDeviationMircosecondsPerInvocation="235"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="14" invocations="49" avgMicrosecondsPerInvocation="299" maxMicrosecondsPerInvocation="2005" standardDeviationMircosecondsPerInvocation="396"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="11" invocations="1445" avgMicrosecondsPerInvocation="7" maxMicrosecondsPerInvocation="4660" standardDeviationMircosecondsPerInvocation="124"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
