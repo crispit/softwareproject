@@ -2,7 +2,7 @@
 
 Det här Repository:t har följande innehåll:
 
-Deliverables: Innehåller de obligatoriska inlämningar som gjorts under kursen, t.ex. D1.B och D2.
+Slutinlämning: Innehåller alla de de olika delar tillhörande slutinlämningen, så som reflektionsrapport, prototype m.m.
 
 ErrorReporting: Innehåller projektet för felrapporteringsappen som vi skapat.
 
