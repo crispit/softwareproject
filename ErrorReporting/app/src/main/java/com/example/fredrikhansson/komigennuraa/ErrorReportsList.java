@@ -42,6 +42,26 @@ public class ErrorReportsList extends AppCompatActivity {
 
         list = mydb.getBusReports(busId); // Adds all reports in the list
 
+        sort();
+
+        setAdapterToListview();
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, final View view, int position, long id) {
+                Intent i = new Intent(view.getContext(), UpdateReport.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("errorId",list.get(position).getId());
+                i.putExtras(bundle);
+                startActivityForResult(i, 2);
+            }
+
+        });
+
+    }//onCreate
+
+
+    private void sort(){
         Collections.sort(list, new Comparator<ErrorReport>() {
             @Override
             public int compare(ErrorReport report1, ErrorReport report2) {
@@ -66,23 +86,7 @@ public class ErrorReportsList extends AppCompatActivity {
                 return (date1.compareTo(date2)) * (-1);
             }
         });
-
-        setAdapterToListview();
-
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, final View view, int position, long id) {
-                Intent i = new Intent(view.getContext(), UpdateReport.class);
-                Bundle bundle = new Bundle();
-                bundle.putString("errorId",list.get(position).getId());
-                i.putExtras(bundle);
-                startActivityForResult(i, 2);
-            }
-
-        });
-
-    }//onCreate
-
+    }
     //Method for updating the reports list after a change
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -90,6 +94,7 @@ public class ErrorReportsList extends AppCompatActivity {
         if (requestCode == 2) {
 
             list = mydb.getBusReports(busId); // Adds all reports in the list
+            sort();
             setAdapterToListview();
         }
     }//onActivityResult

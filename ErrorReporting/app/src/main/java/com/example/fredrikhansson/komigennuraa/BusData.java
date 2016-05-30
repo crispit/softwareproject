@@ -75,28 +75,34 @@ class BusData {
         BufferedReader in = new BufferedReader(new InputStreamReader(
                 con.getInputStream(), Charset.forName("UTF-8")));
 
+        try {
 
-        String inputLine;
+
+            String inputLine;
 
 
-        while ((inputLine = in.readLine()) != null) {
-            response.append(inputLine);
+            while ((inputLine = in.readLine()) != null) {
+                response.append(inputLine);
+            }
+            in.close();
+            if (response.toString().equals("")) {
+                throw new EmptyReturnValueException();
+            }
+            return response.toString();
         }
-        in.close();
-        if (response.toString().equals("")){
-            throw new EmptyReturnValueException();
+        finally {
+            in.close();
         }
-        return response.toString();
 
     }
 
-    private static class wThreads implements Runnable {
+    private static class WThreads implements Runnable {
 
         private final String sensor;
         private final String dgwNr;
         private final HashMap<String,String> busDataMap;
 
-        public wThreads(String dgwNr, String sensor,HashMap<String,String> busDataMap) {
+        public WThreads(String dgwNr, String sensor,HashMap<String,String> busDataMap) {
             this.sensor=sensor;
             this.dgwNr=dgwNr;
             this.busDataMap=busDataMap;
@@ -125,7 +131,7 @@ class BusData {
         myThreads = new Thread[sensors.length];
 
         for (int i = 0; i < sensors.length; i++) {
-            myThreads[i] = new Thread (new wThreads(dgwNr, sensors[i], busDataMap));
+            myThreads[i] = new Thread (new WThreads(dgwNr, sensors[i], busDataMap));
             myThreads[i].start();
         }
 

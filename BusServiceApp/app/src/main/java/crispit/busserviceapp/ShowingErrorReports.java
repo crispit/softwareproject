@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.io.Serializable;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -24,7 +25,7 @@ import java.util.Locale;
  */
 public class ShowingErrorReports extends AppCompatActivity {
 
-    ListView listView ;
+    ListView listView;
     Button updateButton;
     DBHelper mydb;
     private ArrayList<ErrorReport> errorList;
@@ -65,9 +66,9 @@ public class ShowingErrorReports extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, final View view, int position, long id) {
-                Intent intent = new Intent(view.getContext(),DetailedErrorReport.class);
+                Intent intent = new Intent(view.getContext(), DetailedErrorReport.class);
                 Bundle bundle = new Bundle();
-                bundle.putString("errorId",errorList.get(position).getId());
+                bundle.putString("errorId", errorList.get(position).getId());
                 intent.putExtras(bundle);
                 startActivityForResult(intent, 2);
             }
@@ -77,96 +78,87 @@ public class ShowingErrorReports extends AppCompatActivity {
     }
 
 
-
     public void sort(View view) {
 
-        if(sortState == 2) {
+        if (sortState == 2) {
             sortByGrade();
             sortByDate();
 
-        }
-
-        else if(sortState == 1){
+        } else if (sortState == 1) {
             sortByDate();
             sortByGrade();
         }
 
     }
 
-    public void sortByGrade(){
+    public void sortByGrade() {
         Collections.sort(errorList, new Comparator<ErrorReport>() {
             @Override
             public int compare(ErrorReport report1, ErrorReport report2) {
                 int a = report1.getGrade();
                 int b = report2.getGrade();
-                if(a>b)
+                if (a > b)
                     return -1;
-                else if (a<b)
+                else if (a < b)
                     return 1;
                 else
                     return 0;
             }
         });
         objAdapter.notifyDataSetChanged();
-        sortState=2;
-        TextView sortText = (TextView)findViewById(R.id.sortText);
+        sortState = 2;
+        TextView sortText = (TextView) findViewById(R.id.sortText);
         sortText.setText("Grad ▲");
     }
 
-    public void sortByDate (){
+    public void sortByDate() {
 
         Collections.sort(errorList, new Comparator<ErrorReport>() {
-            @Override
-            public int compare(ErrorReport report1, ErrorReport report2) {
-                DateFormat format = new SimpleDateFormat("yyyy-MM-dd,hh:mm:ss", Locale.ENGLISH);
-                Date date1=null;
-                Date date2=null;
-                try {
-                    date1 = format.parse(report1.getPubdate());
-                    date2 = format.parse(report2.getPubdate());
-                }
-                catch(ParseException e){
-
-                }
-                if (date1 == null){
-                    return -1;
-                }
-                else if (date2 == null){
-                    return 1;
-                }
-
-                return (date1.compareTo(date2)) * (-1);
+        @Override
+        public int compare(ErrorReport report1, ErrorReport report2) {
+            DateFormat format = new SimpleDateFormat("yyyy-MM-dd,hh:mm:ss", Locale.ENGLISH);
+            Date date1=null;
+            Date date2=null;
+            try {
+                date1 = format.parse(report1.getPubdate());
+                date2 = format.parse(report2.getPubdate());
+            }
+            catch(ParseException e){
 
             }
-        });
+            if (date1 == null){
+                return -1;
+            }
+            else if (date2 == null){
+                return 1;
+            }
+
+            return (date1.compareTo(date2)) * (-1);
+
+        }
+    });
+
         objAdapter.notifyDataSetChanged();
-        sortState=1;
-        TextView sortText = (TextView)findViewById(R.id.sortText);
+        sortState = 1;
+        TextView sortText = (TextView) findViewById(R.id.sortText);
         sortText.setText("Rapportdatum ▲");
     }
 
-    public void updateList(View view){
+    public void updateList(View view) {
 
         errorList = getErrorList();
         setAdapterToListview();
-        sortState = sortState%2 +1;
+        sortState = sortState % 2 + 1;
         sort(view);
     }
 
 
-
-    public void setTitle(){
-        if (typeOfErrorReports.equals("Livefeed")){
+    public void setTitle() {
+        if (typeOfErrorReports.equals("Livefeed")) {
             setTitle(R.string.liveFeed);
-        }
-
-
-        else if (typeOfErrorReports.equals("BusInfo")){
+        } else if (typeOfErrorReports.equals("BusInfo")) {
             setTitle(R.string.busInfo);
-        }
-
-
-        else if (typeOfErrorReports.equals("History")){
+        } else if (typeOfErrorReports.equals("History")) {
             setTitle(R.string.history);
         }
     }
@@ -184,7 +176,6 @@ public class ShowingErrorReports extends AppCompatActivity {
     }
 
 
-
     public void setAdapterToListview() {
         objAdapter = new ListRowAdapter(ShowingErrorReports.this,
                 R.layout.row, errorList);
@@ -200,8 +191,9 @@ public class ShowingErrorReports extends AppCompatActivity {
 
             errorList = getErrorList();
             setAdapterToListview();
-            sortState = sortState%2 +1;
+            sortState = sortState % 2 + 1;
             sort(listView);
         }
     }//onActivityResult
+
 }
