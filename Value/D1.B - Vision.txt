@@ -1,0 +1,8 @@
+- Användarna av applikationen är busschaufförerna. Köparna av applikationen är Keolis men även servicehallen får nytta av applikationen.
+- Möjliggör främst snabbare felrapportering och beslutstagande. Dessutom erhålls bussens information i närmare kopppling till den tidpunkt då felet upptäkts.
+- En applikation där busschauffören med ett par snabba klick enkelt kan skicka iväg en felrapportering. Denna inkluderar all information som kan uthämtas från bussen vid tillfället. Alla felrapporteringar kan sedan ges en utförligare specifikation över symptomen när chauffören får någon minut över vid en slutstation eller liknande. GUI:et ska ha en grafisk och lättöverskådlig bild över bussen och även simpelt graderingssystem som gör att rapporteringen går snabbt.
+- Till skillnad mot lösningarna som finns i nuläget så erbjuds med denna applikation ett enklare tillvägagångssätt att både förmedla och ta del av information som kan hjälpa identifiera ett fel.
+- Den 25 maj ska applikationen vara klar och redo att köras. Från och med 15 april räknas med att 6 personer kan spendera 20 timmar i veckan med att färdigställa projektet fram tills detta datum.
+
+Vi vill kunna underlätta planering av reparationsarbete vid slumpmässigt uppkommande problem för att kunna förebygga 
+resursutnyttjande

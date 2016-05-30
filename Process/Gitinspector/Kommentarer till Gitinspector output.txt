@@ -1,0 +1,3 @@
+I den här mappen finns tre olika outputs från gitinspector. 
+
+Outputen från Softwareproject visar resultatet från när hela vårat repo inspekteras. Anledningen till att majoriteten av commitsen har gjorts av en användare är för att vi från början hade två separata repositories för våra två olika appar. Dessa lades sedan in i det aktuella repot. Därför är även outputs från de två ursprungliga repona bifogade för att visa inspektionen från dem. De återfinns i "ErrorReporting Output" och "BusServiceApp Output".
