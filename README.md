@@ -9,11 +9,17 @@ ErrorReporting: Innehåller projektet för felrapporteringsappen som vi skapat.
 BusServiceApp: Innehåller projektet för appen till trafikledning och service.
 
 Team Crispit:
+
 Felix Ehrnberg
+
 Gustav Blide
+
 Mikael Sjöblom
+
 Måns Löfås
+
 Andreas Andersson
+
 Fredrik Hansson
 
 2016
