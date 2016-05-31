@@ -11,10 +11,10 @@ Innehåller alla de de olika delar tillhörande slutinlämningen, så som reflek
 - __Process__
 
 ### ErrorReporting: 
-Innehåller projektet för felrapporteringsappen som vi skapat.
+Innehåller Android-projektet för felrapporteringsappen som vi skapat, med all tillhörande källkod.
 
 ### BusServiceApp:
-Innehåller projektet för appen till trafikledning och service.
+Innehåller Android-projektet för appen till trafikledning och service, med all tillhörande källkod.
 
 ## Team Crispit
 
