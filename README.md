@@ -1,14 +1,22 @@
 # softwareproject
 
-Det här Repository:t har följande innehåll:
+## Innehåll
 
-Slutinlämning: Innehåller alla de de olika delar tillhörande slutinlämningen, så som reflektionsrapport, prototype m.m.
+Det här Repo:t har följande innehåll:
 
-ErrorReporting: Innehåller projektet för felrapporteringsappen som vi skapat.
+### Slutinlämning: 
+Innehåller alla de de olika delar tillhörande slutinlämningen, så som reflektionsrapport, prototype m.m. Dessa är uppdelade i följande tre undermappar där de olika artefakterna tillhörande varje del är insorterade:
+- __Value__
+- __Prototype__
+- __Process__
 
-BusServiceApp: Innehåller projektet för appen till trafikledning och service.
+### ErrorReporting: 
+Innehåller projektet för felrapporteringsappen som vi skapat.
 
-Team Crispit:
+### BusServiceApp:
+Innehåller projektet för appen till trafikledning och service.
+
+## Team Crispit
 
 Felix Ehrnberg
 
@@ -22,5 +30,5 @@ Andreas Andersson
 
 Fredrik Hansson
 
-2016
+__2016-06-03__
 
