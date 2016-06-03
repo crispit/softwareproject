@@ -9,7 +9,7 @@
     <string name="Symptom">Symptom</string>
     <string name="Date">Datum</string>
     <string name="Comment">Kommentar</string>
-    <string name="ChooseSymptom">Välj det symptom som bäst stämmer in:</string>
+    <string name="ChooseSymptom">Välj det fel som bäst stämmer in:</string>
     <string name="ShowReports">Visa skickade rapporter</string>
     <string name="PressHere">Klicka här ▼</string>
     <string name="PressToComplete">Tryck på gul felrapport för att komplettera.</string>

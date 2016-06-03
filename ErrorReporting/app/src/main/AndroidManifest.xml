@@ -24,7 +24,7 @@
             android:label="Skickade felrapporter">
         </activity>
         <activity android:name=".SymptomList"
-            android:label="Val av symptom">
+            android:label="Val av fel">
 
         </activity>
         <activity android:name=".UpdateReport"
